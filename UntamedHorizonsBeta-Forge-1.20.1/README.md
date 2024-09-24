@@ -1,3 +1,3 @@
 # Untamed Horizons
-By ShinySquare
+By ShinySquare + Catus-Soup
  
