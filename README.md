@@ -8,6 +8,6 @@ By ShinySquare
 
 `System.out.println("Hello Everyone. I am ShinySquare.")`
 
-`System.out.println("Hello Everyone. I am Catus")`
+`System.out.println("Hello Everyone. I am Catus-soup")`
 
 Untamed Horizons is a very big biome, structure, dimension, bosses themed mod.
