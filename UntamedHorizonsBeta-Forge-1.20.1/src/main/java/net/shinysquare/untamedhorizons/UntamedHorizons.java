@@ -15,6 +15,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.shinysquare.untamedhorizons.item.ModCreativeModeTabs;
 import net.shinysquare.untamedhorizons.item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,6 +27,10 @@ public class UntamedHorizons {
 
     public UntamedHorizons() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -40,11 +45,11 @@ public class UntamedHorizons {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RUBY);
-            event.accept(ModItems.RAW_RUBY);
-            event.accept(ModItems.SHATTERED_RUBY);
-        }
+//        if(event.getTabKey() == CreativeModeTabs.UH_ORES) {
+//            event.accept(ModItems.RUBY);
+//            event.accept(ModItems.RAW_RUBY);
+//            event.accept(ModItems.SHATTERED_RUBY);
+//        }
 
     }
 
