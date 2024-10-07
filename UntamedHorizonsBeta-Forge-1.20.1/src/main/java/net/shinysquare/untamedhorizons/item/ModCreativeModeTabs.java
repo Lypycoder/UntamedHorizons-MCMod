@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.RUBY.get());
                         pOutput.accept(ModItems.RAW_RUBY.get());
+                        pOutput.accept(ModItems.SHATTERED_RUBY.get());
 
                     })
                     .build());
