@@ -11,9 +11,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, UntamedHorizons.MOD_ID);
 
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+    public static final RegistryObject<Item> FLAWED_RUBY = ITEMS.register("flawed_ruby",
             () -> new Item(new Item.Properties()));
-    public static  final RegistryObject<Item> UNPURE_RUBY = ITEMS.register("unpure_ruby",
+    public static  final RegistryObject<Item> ROUGH_RUBY = ITEMS.register("rough_ruby",
             () -> new Item(new Item.Properties()));
 
 
