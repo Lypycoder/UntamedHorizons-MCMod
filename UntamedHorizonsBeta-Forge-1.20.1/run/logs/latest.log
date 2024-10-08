@@ -124,3 +124,10 @@ Caused by: java.io.EOFException: End of input at line 1 column 1 path $
 [08Oct.2024 16:50:44.358] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 183 advancements
 [08Oct.2024 16:50:46.511] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
 [08Oct.2024 16:50:46.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Oct.2024 16:51:00.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Oct.2024 16:51:01.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Oct.2024 16:51:26.910] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28630ms or 572 ticks behind
+[08Oct.2024 16:51:39.085] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08Oct.2024 16:51:39.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Oct.2024 16:51:39.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Oct.2024 16:51:39.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
