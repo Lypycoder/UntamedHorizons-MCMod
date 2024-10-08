@@ -19,7 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.RUBY.get());
-                        pOutput.accept(ModItems.SHATTERED_RUBY.get());
+                        pOutput.accept(ModItems.UNPURE_RUBY.get());
 
                     })
                     .build());

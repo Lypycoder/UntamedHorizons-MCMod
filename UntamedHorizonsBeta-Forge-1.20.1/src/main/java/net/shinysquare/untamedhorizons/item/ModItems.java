@@ -13,7 +13,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
-    public static  final RegistryObject<Item> SHATTERED_RUBY = ITEMS.register("shattered_ruby",
+    public static  final RegistryObject<Item> UNPURE_RUBY = ITEMS.register("unpure_ruby",
             () -> new Item(new Item.Properties()));
 
 
