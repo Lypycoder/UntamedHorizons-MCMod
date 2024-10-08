@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> UH_ORES = CREATIVE_MODE_TABS.register("uh_ores",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
-                    .title(Component.translatable("creativetab.tutorial_tab"))
+                    .title(Component.translatable("untamedhorizons.creativetab.uh_ores"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.RUBY.get());

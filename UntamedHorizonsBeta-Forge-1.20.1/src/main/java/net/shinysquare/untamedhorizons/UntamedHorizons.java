@@ -55,9 +55,7 @@ public class UntamedHorizons {
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event, UseOnContext pContext) {
-        Player player = pContext.getPlayer();
-        player.sendSystemMessage(Component.literal("Welcome to Untamed Horizons! Please support us!"));
+    public void onServerStarting(ServerStartingEvent event) {
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
