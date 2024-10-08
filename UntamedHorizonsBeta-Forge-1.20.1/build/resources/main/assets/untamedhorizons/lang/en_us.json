@@ -1,6 +1,15 @@
 {
-  "item.untamedhorizons.flawed_ruby": "Flawed Ruby",
-  "item.untamedhorizons.rough_ruby": "Rough Ruby",
+  "item.untamedhorizons.rough_ruby": "§cRough Ruby",
+  "item.untamedhorizons.flawed_ruby": "§cFlawed Ruby",
+  "item.untamedhorizons.fine_ruby": "§cFine Ruby",
+  "item.untamedhorizons.flawless_ruby": "§cFlawless Ruby",
+  "item.untamedhorizons.perfect_ruby": "§cPerfect Ruby",
+
+  "item.untamedhorizons.rough_sapphire": "§1Rough Sapphire",
+  "item.untamedhorizons.flawed_sapphire": "§1Flawed Sapphire",
+  "item.untamedhorizons.fine_sapphire": "§1Fine Sapphire",
+  "item.untamedhorizons.flawless_sapphire": "§1Flawless Sapphire",
+  "item.untamedhorizons.perfect_sapphire": "§1Perfect Sapphire",
 
   "untamedhorizons.creativetab.uh_ores": "Untamed Horizons Ores"
 }

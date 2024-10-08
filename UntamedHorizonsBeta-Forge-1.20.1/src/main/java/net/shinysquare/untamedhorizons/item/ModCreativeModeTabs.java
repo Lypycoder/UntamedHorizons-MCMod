@@ -20,6 +20,15 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.FLAWED_RUBY.get());
                         pOutput.accept(ModItems.ROUGH_RUBY.get());
+                        pOutput.accept(ModItems.FINE_RUBY.get());
+                        pOutput.accept(ModItems.FLAWLESS_RUBY.get());
+                        pOutput.accept(ModItems.PERFECT_RUBY.get());
+
+                        pOutput.accept(ModItems.FLAWED_SAPPHIRE.get());
+                        pOutput.accept(ModItems.ROUGH_SAPPHIRE.get());
+                        pOutput.accept(ModItems.FINE_SAPPHIRE.get());
+                        pOutput.accept(ModItems.FLAWLESS_SAPPHIRE.get());
+                        pOutput.accept(ModItems.PERFECT_SAPPHIRE.get());
 
                     })
                     .build());
