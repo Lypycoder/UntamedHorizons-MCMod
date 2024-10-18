@@ -800,6 +800,24 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-10-09 10:19:56 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_the_recipe": "2024-10-09 10:20:12 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_the_recipe": "2024-10-09 10:20:14 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2024-10-09 10:21:42 -0700"
@@ -812,27 +830,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2024-10-09 10:27:09 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2024-10-09 10:21:42 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_the_recipe": "2024-10-09 10:20:14 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_the_recipe": "2024-10-09 10:20:12 -0700"
     },
     "done": true
   },
@@ -854,9 +854,9 @@
     },
     "done": true
   },
-  "minecraft:story/root": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "crafting_table": "2024-10-09 10:19:56 -0700"
+      "has_bone_meal": "2024-10-09 10:27:09 -0700"
     },
     "done": true
   },
