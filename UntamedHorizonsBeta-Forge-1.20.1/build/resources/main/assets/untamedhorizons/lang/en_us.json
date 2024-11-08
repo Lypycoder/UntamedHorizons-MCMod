@@ -11,5 +11,13 @@
   "item.untamedhorizons.flawless_sapphire": "§9✎ Flawless Sapphire",
   "item.untamedhorizons.perfect_sapphire": "§9✎ Perfect Sapphire",
 
-  "untamedhorizons.creativetab.uh_ores": "§6⸕ Untamed Horizons Ores"
+  "item.untamedhorizons.rough_topaz": "§d✧ Rough Topaz",
+  "item.untamedhorizons.flawed_topaz": "§d✧ Flawed Topaz",
+  "item.untamedhorizons.fine_topaz": "§d✎ Fine Topaz",
+  "item.untamedhorizons.flawless_topaz": "§d✧ Flawless Topaz",
+  "item.untamedhorizons.perfect_topaz": "§d✧ Perfect Topaz",
+
+  "block.untamedhorizons.hard_stone": "Hard Stone",
+
+  "untamedhorizons.creativetab.ch": "§6⸕ Crystal Hallows"
 }

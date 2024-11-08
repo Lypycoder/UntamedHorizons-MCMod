@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:river": "2024-10-08 13:42:08 -0700",
       "minecraft:forest": "2024-10-07 10:31:36 -0700",
+      "minecraft:meadow": "2024-11-08 13:46:40 -0800",
       "minecraft:plains": "2024-10-07 10:18:24 -0700"
     },
     "done": false
@@ -869,6 +870,36 @@
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2024-10-24 13:21:29 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2024-11-08 13:48:26 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-11-08 13:47:52 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2024-11-08 13:48:26 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-11-08 14:04:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2024-11-08 13:48:26 -0800"
     },
     "done": true
   },
