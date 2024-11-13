@@ -321,3 +321,48 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 [08Nov.2024 14:12:01.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
 [08Nov.2024 14:12:01.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
 [08Nov.2024 14:17:36.306] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[08Nov.2024 14:18:00.986] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9695ms or 193 ticks behind
+[08Nov.2024 14:19:09.403] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08Nov.2024 14:19:09.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Nov.2024 14:19:09.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Nov.2024 14:19:09.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Nov.2024 14:19:49.509] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08Nov.2024 14:19:49.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Nov.2024 14:19:49.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Nov.2024 14:19:49.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Nov.2024 14:21:14.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[08Nov.2024 14:21:14.441] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[08Nov.2024 14:22:31.548] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08Nov.2024 14:22:31.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Nov.2024 14:22:31.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Nov.2024 14:22:31.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Nov.2024 14:25:31.477] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1523, l='ServerLevel[New World]', x=-185.74, y=107.15, z=280.84] died, message: 'Villager was blown up by Dev'
+[08Nov.2024 14:25:31.488] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1523, l='ClientLevel', x=-185.32, y=106.76, z=280.54] died, message: 'Villager died'
+[08Nov.2024 14:25:33.052] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1501, l='ServerLevel[New World]', x=-185.24, y=107.25, z=285.61] died, message: 'Villager was blown up by Dev'
+[08Nov.2024 14:25:33.090] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1501, l='ClientLevel', x=-185.29, y=106.92, z=285.69] died, message: 'Villager died'
+[08Nov.2024 14:25:33.494] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1504, l='ServerLevel[New World]', x=-192.84, y=108.00, z=289.24] died, message: 'Villager was blown up by Dev'
+[08Nov.2024 14:25:33.531] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1504, l='ClientLevel', x=-193.57, y=108.66, z=289.37] died, message: 'Villager died'
+[08Nov.2024 14:26:14.167] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[08Nov.2024 14:26:14.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[08Nov.2024 14:26:14.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[08Nov.2024 14:26:14.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[08Nov.2024 14:27:45.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 128 [TNT] to Dev]
+[08Nov.2024 14:27:45.971] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 128 [TNT] to Dev
+[08Nov.2024 14:30:31.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 256 [TNT] to Dev]
+[08Nov.2024 14:30:31.378] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gave 256 [TNT] to Dev
+[08Nov.2024 14:31:38.369] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1525, l='ServerLevel[New World]', x=-143.25, y=90.00, z=301.79] died, message: 'Villager was blown up by Dev'
+[08Nov.2024 14:31:38.397] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1525, l='ClientLevel', x=-142.95, y=90.00, z=301.56] died, message: 'Villager died'
+[08Nov.2024 14:33:06.937] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 200 advancements
+[08Nov.2024 14:34:46.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[08Nov.2024 14:34:46.225] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[08Nov.2024 14:36:00.280] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Respawn point set
+[08Nov.2024 14:36:05.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Respawn point set
+[08Nov.2024 14:36:54.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Diamonds!]
+[08Nov.2024 14:36:54.525] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Diamonds!]
+[08Nov.2024 14:36:54.561] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 215 advancements
+[08Nov.2024 14:36:55.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Suit Up]
+[08Nov.2024 14:36:55.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Suit Up]
+[08Nov.2024 14:36:55.545] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 219 advancements
+[08Nov.2024 14:36:55.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Acquire Hardware]
+[08Nov.2024 14:36:55.791] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Acquire Hardware]
+[08Nov.2024 14:36:55.802] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 243 advancements

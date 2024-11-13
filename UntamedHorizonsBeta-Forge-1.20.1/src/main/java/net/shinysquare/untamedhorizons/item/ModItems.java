@@ -18,35 +18,46 @@ public class ModItems {
 
     public static final RegistryObject<Item> FLAWED_RUBY = ITEMS.register("flawed_ruby",
             FLAWEDGEMSTONEItem::new);
-    public static  final RegistryObject<Item> ROUGH_RUBY = ITEMS.register("rough_ruby",
+    public static final RegistryObject<Item> ROUGH_RUBY = ITEMS.register("rough_ruby",
             ROUGHGEMSTONEItem::new);
-    public static  final RegistryObject<Item> FINE_RUBY = ITEMS.register("fine_ruby",
+    public static final RegistryObject<Item> FINE_RUBY = ITEMS.register("fine_ruby",
             FINEGEMSTONEItem::new);
-    public static  final RegistryObject<Item> FLAWLESS_RUBY = ITEMS.register("flawless_ruby",
+    public static final RegistryObject<Item> FLAWLESS_RUBY = ITEMS.register("flawless_ruby",
             FLAWLESSGEMSTONEItem::new);
-    public static  final RegistryObject<Item> PERFECT_RUBY = ITEMS.register("perfect_ruby",
+    public static final RegistryObject<Item> PERFECT_RUBY = ITEMS.register("perfect_ruby",
             PERFECTGEMSTONEItem::new);
 
     public static final RegistryObject<Item> FLAWED_SAPPHIRE = ITEMS.register("flawed_sapphire",
             FLAWEDGEMSTONEItem::new);
-    public static  final RegistryObject<Item> ROUGH_SAPPHIRE = ITEMS.register("rough_sapphire",
+    public static final RegistryObject<Item> ROUGH_SAPPHIRE = ITEMS.register("rough_sapphire",
             ROUGHGEMSTONEItem::new);
-    public static  final RegistryObject<Item> FINE_SAPPHIRE = ITEMS.register("fine_sapphire",
+    public static final RegistryObject<Item> FINE_SAPPHIRE = ITEMS.register("fine_sapphire",
             FINEGEMSTONEItem::new);
-    public static  final RegistryObject<Item> FLAWLESS_SAPPHIRE = ITEMS.register("flawless_sapphire",
+    public static final RegistryObject<Item> FLAWLESS_SAPPHIRE = ITEMS.register("flawless_sapphire",
             FLAWLESSGEMSTONEItem::new);
-    public static  final RegistryObject<Item> PERFECT_SAPPHIRE = ITEMS.register("perfect_sapphire",
+    public static final RegistryObject<Item> PERFECT_SAPPHIRE = ITEMS.register("perfect_sapphire",
             PERFECTGEMSTONEItem::new);
 
     public static final RegistryObject<Item> FLAWED_TOPAZ = ITEMS.register("flawed_topaz",
             FLAWEDGEMSTONEItem::new);
-    public static  final RegistryObject<Item> ROUGH_TOPAZ = ITEMS.register("rough_topaz",
+    public static final RegistryObject<Item> ROUGH_TOPAZ = ITEMS.register("rough_topaz",
             ROUGHGEMSTONEItem::new);
-    public static  final RegistryObject<Item> FINE_TOPAZ = ITEMS.register("fine_topaz",
+    public static final RegistryObject<Item> FINE_TOPAZ = ITEMS.register("fine_topaz",
             FINEGEMSTONEItem::new);
-    public static  final RegistryObject<Item> FLAWLESS_TOPAZ = ITEMS.register("flawless_topaz",
+    public static final RegistryObject<Item> FLAWLESS_TOPAZ = ITEMS.register("flawless_topaz",
             FLAWLESSGEMSTONEItem::new);
-    public static  final RegistryObject<Item> PERFECT_TOPAZ = ITEMS.register("perfect_topaz",
+    public static final RegistryObject<Item> PERFECT_TOPAZ = ITEMS.register("perfect_topaz",
+            PERFECTGEMSTONEItem::new);
+
+    public static final RegistryObject<Item> FLAWED_JADE = ITEMS.register("flawed_jade",
+            FLAWEDGEMSTONEItem::new);
+    public static final RegistryObject<Item> ROUGH_JADE = ITEMS.register("rough_jade",
+            ROUGHGEMSTONEItem::new);
+    public static final RegistryObject<Item> FINE_JADE = ITEMS.register("fine_jade",
+            FINEGEMSTONEItem::new);
+    public static final RegistryObject<Item> FLAWLESS_JADE = ITEMS.register("flawless_jade",
+            FLAWLESSGEMSTONEItem::new);
+    public static final RegistryObject<Item> PERFECT_JADE = ITEMS.register("perfect_jade",
             PERFECTGEMSTONEItem::new);
 
 

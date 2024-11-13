@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.shinysquare.untamedhorizons.UntamedHorizons;
+import net.shinysquare.untamedhorizons.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -17,6 +18,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLAWED_RUBY.get()))
                     .title(Component.translatable("untamedhorizons.creativetab.ch"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.HARDSTONE.get());
 
                         pOutput.accept(ModItems.FLAWED_RUBY.get());
                         pOutput.accept(ModItems.ROUGH_RUBY.get());
