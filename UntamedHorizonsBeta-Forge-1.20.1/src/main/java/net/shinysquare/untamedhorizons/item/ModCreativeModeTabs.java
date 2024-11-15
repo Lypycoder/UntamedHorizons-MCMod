@@ -38,6 +38,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.FLAWLESS_TOPAZ.get());
                         pOutput.accept(ModItems.PERFECT_TOPAZ.get());
 
+                        pOutput.accept(ModItems.FLAWED_JADE.get());
+                        pOutput.accept(ModItems.ROUGH_JADE.get());
+                        pOutput.accept(ModItems.FINE_JADE.get());
+                        pOutput.accept(ModItems.FLAWLESS_JADE.get());
+                        pOutput.accept(ModItems.PERFECT_JADE.get());
+
                     })
                     .build());
 
