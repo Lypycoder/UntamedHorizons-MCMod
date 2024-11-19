@@ -53,11 +53,12 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.MANGO.get());
                         pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.BANANA.get());
 
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab>ORE_TAB = CREATIVE_MODE_TABS.register("more_ores",
+    public static final RegistryObject<CreativeModeTab>ORE_TAB = CREATIVE_MODE_TABS.register("more_1ores",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLAWED_RUBY.get()))
                     .title(Component.translatable("untamedhorizons.creativetab.ore_tab"))
                     .displayItems((pParameters, pOutput) -> {
