@@ -14,11 +14,10 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, UntamedHorizons.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab>CH = CREATIVE_MODE_TABS.register("uh_ores",
+    public static final RegistryObject<CreativeModeTab>GEMSTONE_TAB = CREATIVE_MODE_TABS.register("gemstones",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLAWED_RUBY.get()))
-                    .title(Component.translatable("untamedhorizons.creativetab.ch"))
+                    .title(Component.translatable("untamedhorizons.creativetab.gemstone_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModBlocks.HARDSTONE.get());
 
                         pOutput.accept(ModItems.FLAWED_RUBY.get());
                         pOutput.accept(ModItems.ROUGH_RUBY.get());
@@ -46,15 +45,27 @@ public class ModCreativeModeTabs {
 
                     })
                     .build());
-    public static final RegistryObject<CreativeModeTab>CH = CREATIVE_MODE_TABS.register("food",
+
+    public static final RegistryObject<CreativeModeTab> FOOD_TAB = CREATIVE_MODE_TABS.register("more_foods",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MANGO.get()))
-                    .title(Component.translatable("untamedhorizons.creativetab.ch"))
+                    .title(Component.translatable("untamedhorizons.creativetab.foob_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
                         pOutput.accept(ModItems.MANGO.get());
                         pOutput.accept(ModItems.STRAWBERRY.get());
 
                     })
+                    .build());
 
+    public static final RegistryObject<CreativeModeTab>ORE_TAB = CREATIVE_MODE_TABS.register("more_ores",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLAWED_RUBY.get()))
+                    .title(Component.translatable("untamedhorizons.creativetab.ore_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(ModBlocks.HARDSTONE.get());
+
+                    })
+                    .build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
