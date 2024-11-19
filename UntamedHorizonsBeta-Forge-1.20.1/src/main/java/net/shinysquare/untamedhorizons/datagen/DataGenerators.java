@@ -1,4 +1,4 @@
-package net.kaupenjoe.tutorialmod.datagen;
+package net.shinysquare.untamedhorizons.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -26,7 +26,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new net.shinysquare.untamedhorizons.datagen.ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new net.shinysquare.untamedhorizons.datagen.ModItemModelProvider(packOutput, existingFileHelper));
 
-        net.kaupenjoe.tutorialmod.datagen.ModBlockTagGenerator blockTagGenerator = generator.addProvider(event.includeServer(),
+        net.shinysquare.untamedhorizons.datagen.ModBlockTagGenerator blockTagGenerator = generator.addProvider(event.includeServer(),
                 new net.shinysquare.untamedhorizons.datagen.ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new net.shinysquare.untamedhorizons.datagen.ModItemTagGenerator(packOutput, lookupProvider, blockTagGenerator.contentsGetter(), existingFileHelper));
     }

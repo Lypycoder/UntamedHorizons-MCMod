@@ -2,7 +2,7 @@ package net.shinysquare.untamedhorizons.datagen;
 
 import net.shinysquare.untamedhorizons.UntamedHorizons;
 import net.shinysquare.untamedhorizons.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.util.ModTags;
+import net.shinysquare.untamedhorizons.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;

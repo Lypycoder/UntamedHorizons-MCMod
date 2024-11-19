@@ -1,16 +1,13 @@
 package net.shinysquare.untamedhorizons.item;
 
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
+
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.shinysquare.untamedhorizons.UntamedHorizons;
-import net.shinysquare.untamedhorizons.item.custom.FLAWEDGEMSTONEItem;
-import net.shinysquare.untamedhorizons.item.custom.ROUGHGEMSTONEItem;
-import net.shinysquare.untamedhorizons.item.custom.FINEGEMSTONEItem;
-import net.shinysquare.untamedhorizons.item.custom.FLAWLESSGEMSTONEItem;
-import net.shinysquare.untamedhorizons.item.custom.PERFECTGEMSTONEItem;
+import net.shinysquare.untamedhorizons.item.custom.*;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =

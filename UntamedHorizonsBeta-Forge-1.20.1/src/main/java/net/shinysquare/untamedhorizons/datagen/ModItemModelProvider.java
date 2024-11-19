@@ -23,6 +23,30 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.RAW_SAPPHIRE);
 
+        simpleItem(ModItems.ROUGH_SAPPHIRE);
+        simpleItem(ModItems.FLAWED_SAPPHIRE);
+        simpleItem(ModItems.FINE_SAPPHIRE);
+        simpleItem(ModItems.FLAWLESS_SAPPHIRE);
+        simpleItem(ModItems.PERFECT_SAPPHIRE);
+
+        simpleItem(ModItems.ROUGH_RUBY);
+        simpleItem(ModItems.FLAWED_RUBY);
+        simpleItem(ModItems.FINE_RUBY);
+        simpleItem(ModItems.FLAWLESS_RUBY);
+        simpleItem(ModItems.PERFECT_RUBY);
+
+        simpleItem(ModItems.ROUGH_JADE);
+        simpleItem(ModItems.FLAWED_JADE);
+        simpleItem(ModItems.FINE_JADE);
+        simpleItem(ModItems.FLAWLESS_JADE);
+        simpleItem(ModItems.PERFECT_JADE);
+
+        simpleItem(ModItems.ROUGH_TOPAZ);
+        simpleItem(ModItems.FLAWED_TOPAZ);
+        simpleItem(ModItems.FINE_TOPAZ);
+        simpleItem(ModItems.FLAWLESS_TOPAZ);
+        simpleItem(ModItems.PERFECT_TOPAZ);
+
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PINE_CONE);
         simpleItem(ModItems.STRAWBERRY);

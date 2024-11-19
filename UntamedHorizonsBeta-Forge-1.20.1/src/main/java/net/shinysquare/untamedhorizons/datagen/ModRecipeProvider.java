@@ -1,8 +1,8 @@
-package net.kaupenjoe.tutorialmod.datagen;
+package net.shinysquare.untamedhorizons.datagen;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.shinysquare.untamedhorizons.UntamedHorizons;
+import net.shinysquare.untamedhorizons.block.ModBlocks;
+import net.shinysquare.untamedhorizons.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
@@ -51,11 +51,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     }
 
     protected static void oreCooking(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeSerializer<? extends AbstractCookingRecipe> pCookingSerializer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
-        for(ItemLike itemlike : pIngredients) {
+        for (ItemLike itemlike : pIngredients) {
             SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult,
-                    pExperience, pCookingTime, pCookingSerializer)
+                            pExperience, pCookingTime, pCookingSerializer)
                     .group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
-                    .save(pFinishedRecipeConsumer,  TutorialMod.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
+                    .save(pFinishedRecipeConsumer, UntamedHorizons.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
     }
 }

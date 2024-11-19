@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.datagen;
+package net.shinysquare.untamedhorizons.datagen;
 
-import net.kaupenjoe.tutorialmod.datagen.loot.ModBlockLootTables;
+import net.shinysquare.untamedhorizons.datagen.loot.ModBlockLootTables;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;

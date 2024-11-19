@@ -1,7 +1,7 @@
-package net.kaupenjoe.tutorialmod.datagen.loot;
+package net.shinysquare.untamedhorizons.datagen.loot;
 
-import net.kaupenjoe.tutorialmod.block.ModBlocks;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.shinysquare.untamedhorizons.block.ModBlocks;
+import net.shinysquare.untamedhorizons.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
@@ -45,6 +45,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SAPPHIRE_FENCE.get());
         this.dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE.get());
         this.dropSelf(ModBlocks.SAPPHIRE_WALL.get());
+
+        this.dropSelf(ModBlocks.HARDSTONE.get());
 
         this.add(ModBlocks.SAPPHIRE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
