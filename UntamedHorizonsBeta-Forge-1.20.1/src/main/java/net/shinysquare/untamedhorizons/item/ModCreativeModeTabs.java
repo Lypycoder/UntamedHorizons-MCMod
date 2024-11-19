@@ -46,6 +46,14 @@ public class ModCreativeModeTabs {
 
                     })
                     .build());
+    public static final RegistryObject<CreativeModeTab>CH = CREATIVE_MODE_TABS.register("food",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MANGO.get()))
+                    .title(Component.translatable("untamedhorizons.creativetab.ch"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.MANGO.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+
+                    })
 
 
     public static void register(IEventBus eventBus) {
