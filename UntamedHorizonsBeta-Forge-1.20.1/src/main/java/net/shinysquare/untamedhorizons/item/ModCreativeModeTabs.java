@@ -58,15 +58,28 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab>ORE_TAB = CREATIVE_MODE_TABS.register("more_1ores",
+    public static final RegistryObject<CreativeModeTab>BLOCK_TAB = CREATIVE_MODE_TABS.register("more_blocks",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLAWED_RUBY.get()))
-                    .title(Component.translatable("untamedhorizons.creativetab.ore_tab"))
+                    .title(Component.translatable("untamedhorizons.creativetab.block_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModBlocks.HARDSTONE.get());
 
                     })
                     .build());
+public static final RegistryObject<CreativeModeTab>TOOL_TAB = CREATIVE_MODE_TABS.register("more_tools",
+        () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE_SWORD.get()))
+                .title(Component.translatable("untamedhorizons.creativetab.tool_tab"))
+                .displayItems((pParameters, pOutput) -> {
+                    pOutput.accept(ModItems.SAPPHIRE_AXE.get());
+                    pOutput.accept(ModItems.SAPPHIRE_HOE.get());
+                    pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());
+                    pOutput.accept(ModItems.SAPPHIRE_SHOVEL.get());
+                    pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
+                    pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
+
+                })
+                .build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
