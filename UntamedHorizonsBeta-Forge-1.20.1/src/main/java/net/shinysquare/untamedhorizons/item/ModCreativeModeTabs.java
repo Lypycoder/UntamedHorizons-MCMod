@@ -46,7 +46,7 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab> FOOD_TAB = CREATIVE_MODE_TABS.register("more_foods",
+    /*public static final RegistryObject<CreativeModeTab> FOOD_TAB = CREATIVE_MODE_TABS.register("more_foods",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MANGO.get()))
                     .title(Component.translatable("untamedhorizons.creativetab.foob_tab"))
                     .displayItems((pParameters, pOutput) -> {
@@ -80,10 +80,9 @@ public static final RegistryObject<CreativeModeTab>TOOL_TAB = CREATIVE_MODE_TABS
 
                 })
                 .build());
-
+*/
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }
 }
-
 
